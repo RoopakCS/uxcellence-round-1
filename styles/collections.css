@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.collections-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 100vh;
+    background: linear-gradient(#ffffff, #b2e2cd);
+} 
+
+.collections-section .collections-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.collections-section .collections-container h1 {
+    font-family: "Syne";
+    font-size: 3rem;
+}
+
+.collections-section .collections-container .collections-img-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.collections-section .collections-container .collections-img-container .image-container {
+    position: relative;
+}
+
+.collections-container .collections-container .collections-img-container .image-container h3 {
+    position: absolute;
+    text-align: center;
+    font-family: "Syne";
+}
+
+.collections-section .collections-container .collections-img-container img {
+    width: 350px;
+}
